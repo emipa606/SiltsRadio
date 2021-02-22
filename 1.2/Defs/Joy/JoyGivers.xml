@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <JoyGiverDef>
+    <defName>ListenRadio</defName>
+    <giverClass>JoyGiver_WatchBuilding</giverClass>
+    <baseChance>2</baseChance>
+    <canDoWhileInBed>true</canDoWhileInBed>
+    <thingDefs>
+      <li>Radio</li>
+      <li>StandingRadio</li>
+      <li>TableRadio</li>
+      <li>ModernRadio</li>
+    </thingDefs>
+    <jobDef>ListenRadio</jobDef>
+    <desireSit>true</desireSit>
+    <joyKind>Television</joyKind>
+    <requiredCapacities>
+      <li>Hearing</li>
+    </requiredCapacities>
+  </JoyGiverDef>
+</Defs>
