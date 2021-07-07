@@ -1,0 +1,227 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <ThingDef ParentName="FurnitureWithQualityBase" Name="RadioBase" Abstract="True">
+    <description>A radio where you can listen to music or the RimNews.</description>
+    <minifiedDef>MinifiedThing</minifiedDef>
+    <altitudeLayer>Building</altitudeLayer>
+    <socialPropernessMatters>true</socialPropernessMatters>
+    <thingCategories>
+      <li>BuildingsJoy</li>
+    </thingCategories>
+    <statBases>
+      <MaxHitPoints>100</MaxHitPoints>
+      <Flammability>1.0</Flammability>
+      <JoyGainFactor>1.0</JoyGainFactor>
+    </statBases>
+    <researchPrerequisites>
+      <li>Radio</li>
+    </researchPrerequisites>
+    <constructionSkillPrerequisite>4</constructionSkillPrerequisite>
+    <designationCategory>Joy</designationCategory>
+    <drawPlaceWorkersWhileSelected>true</drawPlaceWorkersWhileSelected>
+    <placeWorkers>
+      <li>PlaceWorker_WatchArea</li>
+    </placeWorkers>
+    <comps>
+      <li Class="CompProperties_Power">
+        <compClass>CompPowerTrader</compClass>
+        <shortCircuitInRain>true</shortCircuitInRain>
+        <basePowerConsumption>60</basePowerConsumption>
+      </li>
+      <li Class="CompProperties_Flickable" />
+    </comps>
+  </ThingDef>
+  <ThingDef ParentName="RadioBase">
+    <defName>Radio</defName>
+    <label>radio</label>
+    <graphicData>
+      <texPath>Things/Building/Joy/Radio</texPath>
+      <graphicClass>Graphic_Multi</graphicClass>
+      <shadowData>
+        <volume>(0.5, 0.5, 0.5)</volume>
+        <offset>(0,0,-0.15)</offset>
+      </shadowData>
+      <drawSize>(3,3)</drawSize>
+    </graphicData>
+    <uiIconOffset>(0, 0.25)</uiIconOffset>
+    <size>(1,1)</size>
+    <rotatable>true</rotatable>
+    <canOverlapZones>true</canOverlapZones>
+    <statBases>
+      <WorkToBuild>4000</WorkToBuild>
+      <Mass>4</Mass>
+      <MarketValue>120</MarketValue>
+    </statBases>
+    <building>
+      <joyKind>Television</joyKind>
+      <watchBuildingStandDistanceRange>
+        <min>-2</min>
+        <max>2</max>
+      </watchBuildingStandDistanceRange>
+      <watchBuildingStandRectWidth>5</watchBuildingStandRectWidth>
+    </building>
+    <costList>
+      <Steel>70</Steel>
+      <ComponentIndustrial>1</ComponentIndustrial>
+    </costList>
+    <pathCost>10</pathCost>
+    <passability>PassThroughOnly</passability>
+    <defaultPlacingRot>South</defaultPlacingRot>
+    <constructEffect>ConstructMetal</constructEffect>
+  </ThingDef>
+  <ThingDef ParentName="RadioBase">
+    <defName>StandingRadio</defName>
+    <label>standing radio</label>
+    <graphicData>
+      <texPath>Things/Building/Joy/StandingRadio</texPath>
+      <graphicClass>Graphic_Multi</graphicClass>
+      <shaderType>CutoutComplex</shaderType>
+      <shadowData>
+        <volume>(0.5, 0.5, 0.5)</volume>
+        <offset>(0,0,-0.15)</offset>
+      </shadowData>
+      <drawSize>(3,3)</drawSize>
+    </graphicData>
+    <uiIconOffset>(0, 0.4)</uiIconOffset>
+    <size>(1,1)</size>
+    <rotatable>true</rotatable>
+    <fillPercent>0.4</fillPercent>
+    <canOverlapZones>true</canOverlapZones>
+    <statBases>
+      <WorkToBuild>4000</WorkToBuild>
+      <Mass>20</Mass>
+      <MarketValue>240</MarketValue>
+      <Beauty>8</Beauty>
+    </statBases>
+    <building>
+      <joyKind>Television</joyKind>
+      <watchBuildingStandDistanceRange>
+        <min>-4</min>
+        <max>4</max>
+      </watchBuildingStandDistanceRange>
+      <watchBuildingStandRectWidth>9</watchBuildingStandRectWidth>
+    </building>
+    <costList>
+      <Steel>50</Steel>
+      <ComponentIndustrial>1</ComponentIndustrial>
+    </costList>
+    <stuffCategories>
+      <li>Metallic</li>
+      <li>Woody</li>
+    </stuffCategories>
+    <costStuffCount>64</costStuffCount>
+    <pathCost>10</pathCost>
+    <passability>Standable</passability>
+    <defaultPlacingRot>South</defaultPlacingRot>
+  </ThingDef>
+  <ThingDef ParentName="RadioBase">
+    <defName>TableRadio</defName>
+    <label>radio on a table</label>
+    <graphicData>
+      <texPath>Things/Building/Joy/TableRadio</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>CutoutComplex</shaderType>
+      <shadowData>
+        <volume>(0.9, 0.9, 0.9)</volume>
+      </shadowData>
+      <drawSize>(3,3)</drawSize>
+    </graphicData>
+    <uiIconOffset>(0, 0.2)</uiIconOffset>
+    <size>(1,1)</size>
+    <rotatable>false</rotatable>
+    <passability>PassThroughOnly</passability>
+    <castEdgeShadows>true</castEdgeShadows>
+    <pathCost>60</pathCost>
+    <fillPercent>0.4</fillPercent>
+    <canOverlapZones>false</canOverlapZones>
+    <statBases>
+      <WorkToBuild>5200</WorkToBuild>
+      <Mass>9</Mass>
+      <MarketValue>160</MarketValue>
+      <Beauty>1</Beauty>
+    </statBases>
+    <building>
+      <joyKind>Television</joyKind>
+      <watchBuildingStandDistanceRange>
+        <min>-2</min>
+        <max>2</max>
+      </watchBuildingStandDistanceRange>
+      <watchBuildingStandRectWidth>5</watchBuildingStandRectWidth>
+    </building>
+    <costList>
+      <Steel>70</Steel>
+      <ComponentIndustrial>1</ComponentIndustrial>
+    </costList>
+    <stuffCategories>
+      <li>Metallic</li>
+      <li>Woody</li>
+      <li>Stony</li>
+    </stuffCategories>
+    <costStuffCount>18</costStuffCount>
+    <leaveResourcesWhenKilled>true</leaveResourcesWhenKilled>
+  </ThingDef>
+  <ThingDef ParentName="BuildingBase">
+    <defName>ModernRadio</defName>
+    <label>modern radio</label>
+    <description>A radio where you can listen to music or the RimNews. Can be placed anywere</description>
+    <altitudeLayer>BuildingOnTop</altitudeLayer>
+    <graphicData>
+      <texPath>Things/Building/Joy/ModernRadio</texPath>
+      <graphicClass>Graphic_Multi</graphicClass>
+      <drawSize>(3,3)</drawSize>
+    </graphicData>
+    <uiIconOffset>(0.02, 0.6)</uiIconOffset>
+    <uiIconScale>1.33</uiIconScale>
+    <size>(1,1)</size>
+    <rotatable>true</rotatable>
+    <canOverlapZones>true</canOverlapZones>
+    <minifiedDef>MinifiedThing</minifiedDef>
+    <socialPropernessMatters>true</socialPropernessMatters>
+    <thingCategories>
+      <li>BuildingsJoy</li>
+    </thingCategories>
+    <statBases>
+      <WorkToBuild>5300</WorkToBuild>
+      <Mass>2</Mass>
+      <MarketValue>120</MarketValue>
+      <MaxHitPoints>100</MaxHitPoints>
+      <Flammability>1.0</Flammability>
+      <JoyGainFactor>1.0</JoyGainFactor>
+    </statBases>
+    <costList>
+      <Steel>50</Steel>
+      <ComponentIndustrial>2</ComponentIndustrial>
+    </costList>
+    <building>
+      <isEdifice>false</isEdifice>
+      <joyKind>Television</joyKind>
+      <watchBuildingStandDistanceRange>
+        <min>-3</min>
+        <max>3</max>
+      </watchBuildingStandDistanceRange>
+      <watchBuildingStandRectWidth>7</watchBuildingStandRectWidth>
+    </building>
+    <researchPrerequisites>
+      <li>Radio</li>
+      <li>MicroelectronicsBasics</li>
+    </researchPrerequisites>
+    <constructionSkillPrerequisite>6</constructionSkillPrerequisite>
+    <designationCategory>Joy</designationCategory>
+    <drawPlaceWorkersWhileSelected>true</drawPlaceWorkersWhileSelected>
+    <placeWorkers>
+      <li>PlaceWorker_WatchArea</li>
+    </placeWorkers>
+    <pathCost>10</pathCost>
+    <passability>Standable</passability>
+    <defaultPlacingRot>South</defaultPlacingRot>
+    <comps>
+      <li Class="CompProperties_Power">
+        <compClass>CompPowerTrader</compClass>
+        <shortCircuitInRain>true</shortCircuitInRain>
+        <basePowerConsumption>40</basePowerConsumption>
+      </li>
+      <li Class="CompProperties_Flickable" />
+    </comps>
+    <constructEffect>ConstructMetal</constructEffect>
+  </ThingDef>
+</Defs>
