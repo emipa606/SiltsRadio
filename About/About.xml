@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <ModMetaData>
   <name>Silts Radio (Continued)</name>
   <packageId>Mlie.SiltsRadio</packageId>
@@ -12,24 +12,28 @@
   </supportedVersions>
   <modDependencies />
   <loadAfter />
-  <description>[img]https://i.imgur.com/WAEzk68.png[/img]
+  <description>[img]https://i.imgur.com/buuPQel.png[/img]
 Update of Silts mod
 https://steamcommunity.com/sharedfiles/filedetails/?id=1489320417
 
-[img]https://i.imgur.com/7Gzt3Rg.png[/img]
+[img]https://i.imgur.com/pufA0kM.png[/img]
 
 [table]
     [tr]
         [td][url=https://invite.gg/Mlie][img]https://i.imgur.com/zdzzBrc.png[/img][/url][/td]
         [td][url=https://github.com/emipa606/SiltsRadio][img]https://i.imgur.com/kTkpTOE.png[/img][/url][/td]
     [/tr]
+    [tr]
+        [td][img]https://i.imgur.com/WjDSfUn.png[/img][/td]
+        [td][img]https://i.imgur.com/Be8E2qJ.png[/img][/td]
+    [/tr]
 [/table]
 	
-[img]https://i.imgur.com/NOW7jU1.png[/img]
+[img]https://i.imgur.com/Z4GOv8H.png[/img]
 Adds some simple Radios for your colonists to listen to. 
 
 [h1]Features[/h1]
-- Build Radios, after researching &quot;[i]Radio[/i]&quot; (cost of 600, requires Electricity)
+- Build Radios, after researching "[i]Radio[/i]" (cost of 600, requires Electricity)
 - Different Radios have a different sizes for their listen area, where a chair (or something similar) has to be placed. (the Radio has an area of 5x5, Modern 7x7 and Standing 9x9)
 - Every Radio (except the modern one) have a construction quality.
 - The [i]Normal Radio[/i], the [i]Standing Radio[/i] and the [i]Modern Radio[/i] are standable, so they can be placed around i.e. Billiard Tables.
@@ -41,14 +45,14 @@ I made this mod to entertain my blind colonist before getting him some new eyes 
 [b]Safe to add at any time[/b]
 
 [h1]No longer being maintained[/h1]
-I haven&apos;t played RimWorld for a while and my mods are thus no longer updated. I might do so in the future.
+I haven't played RimWorld for a while and my mods are thus no longer updated. I might do so in the future.
 If anyone wants to take over this mod, feel free to do so. Just credit me and leave a comment here, so I can link it as well.
 
 Nevertheless, this mod should still work fine as it is.
 
 [u][b]Please rate and give Feedback![/b][/u]
 
-[img]https://i.imgur.com/Rs6T6cr.png[/img]
+[img]https://i.imgur.com/PwoNOj4.png[/img]
 [list]
 [*] See if the the error persists if you just have this mod and its requirements active.
 [*] If not, try adding your other mods until it happens again.
