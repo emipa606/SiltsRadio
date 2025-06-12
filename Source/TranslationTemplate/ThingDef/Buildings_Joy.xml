@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: modern radio -->
+  <ModernRadio.label>modern radio</ModernRadio.label>
+  <!-- EN: A radio where you can listen to music or the RimNews. Can be placed anywere -->
+  <ModernRadio.description>A radio where you can listen to music or the RimNews. Can be placed anywere</ModernRadio.description>
+  <!-- EN: radio -->
+  <Radio.label>radio</Radio.label>
+  <!-- EN: A radio where you can listen to music or the RimNews. -->
+  <Radio.description>A radio where you can listen to music or the RimNews.</Radio.description>
+  <!-- EN: standing radio -->
+  <StandingRadio.label>standing radio</StandingRadio.label>
+  <!-- EN: A radio where you can listen to music or the RimNews. -->
+  <StandingRadio.description>A radio where you can listen to music or the RimNews.</StandingRadio.description>
+  <!-- EN: radio on a table -->
+  <TableRadio.label>radio on a table</TableRadio.label>
+  <!-- EN: A radio where you can listen to music or the RimNews. -->
+  <TableRadio.description>A radio where you can listen to music or the RimNews.</TableRadio.description>
+</LanguageData>
