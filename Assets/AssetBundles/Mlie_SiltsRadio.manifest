@@ -1,0 +1,34 @@
+ManifestFileVersion: 0
+CRC: 3465137844
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 0177db93e27197c692b22a04d4b55d7a
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 2612ac43db082a73502ee80f2eceb73f
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: 0177db93e27197c692b22a04d4b55d7a
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Data/Mlie.SiltsRadio/Textures/Things/Building/Joy/ModernRadio_north.png
+- Assets/Data/Mlie.SiltsRadio/Textures/Things/Building/Joy/StandingRadio_southm.png
+- Assets/Data/Mlie.SiltsRadio/Textures/Things/Building/Joy/TableRadio.png
+- Assets/Data/Mlie.SiltsRadio/Textures/Things/Building/Joy/StandingRadio_eastm.png
+- Assets/Data/Mlie.SiltsRadio/Textures/Things/Building/Joy/StandingRadio_north.png
+- Assets/Data/Mlie.SiltsRadio/Textures/Things/Building/Joy/Radio_east.png
+- Assets/Data/Mlie.SiltsRadio/Textures/Things/Building/Joy/Radio_north.png
+- Assets/Data/Mlie.SiltsRadio/Textures/Things/Building/Joy/ModernRadio_south.png
+- Assets/Data/Mlie.SiltsRadio/Textures/Things/Building/Joy/StandingRadio_south.png
+- Assets/Data/Mlie.SiltsRadio/Textures/Things/Building/Joy/grid.png
+- Assets/Data/Mlie.SiltsRadio/Textures/Things/Building/Joy/StandingRadio_northm.png
+- Assets/Data/Mlie.SiltsRadio/Textures/Things/Building/Joy/TableRadio_m.png
+- Assets/Data/Mlie.SiltsRadio/Textures/Things/Building/Joy/StandingRadio_east.png
+- Assets/Data/Mlie.SiltsRadio/Textures/Things/Building/Joy/Radio_south.png
+- Assets/Data/Mlie.SiltsRadio/Textures/Things/Building/Joy/ModernRadio_east.png
+Dependencies: []
